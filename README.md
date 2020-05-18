@@ -1,5 +1,7 @@
 # Dancing Across Boundaries - Summer 2020
 
+https://dancinganddabbing.github.io/Summer20/
+
 ![Logo](static/favicon.png)
 
 ## 📄 Contributing
