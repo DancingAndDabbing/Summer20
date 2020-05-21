@@ -7,7 +7,7 @@ module.exports = {
         siteDescription: `Static Web App for DAB 2020`,
         siteUrl: `https://williepayne.com`,
         siteAuthor: `@huriphoonado`,
-        siteImage: `/banner.png`,
+        siteImage: `/favicon.png`,
         siteLanguage: `en`,
         themeColor: `#7159c1`,
         basePath: `/`,
