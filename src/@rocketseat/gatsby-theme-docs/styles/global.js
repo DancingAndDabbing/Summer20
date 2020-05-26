@@ -161,7 +161,8 @@ export default function GlobalStyle() {
             pre[class~='language-js']::before,
             pre[class~='language-javascript']::before {
                 content: 'js';
-                background: #f7df1e;
+                background: ${theme.colors.secondary};
+                color: #fff;
             }
             pre[class~='language-jsx']::before {
                 content: 'jsx';

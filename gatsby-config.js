@@ -9,7 +9,7 @@ module.exports = {
         siteAuthor: `@huriphoonado`,
         siteImage: `/favicon.png`,
         siteLanguage: `en`,
-        themeColor: `#7159c1`,
+        themeColor: `#8248a3`,
         basePath: `/`,
         footer: `AMPED Research | STEM From Dance`,
     },
