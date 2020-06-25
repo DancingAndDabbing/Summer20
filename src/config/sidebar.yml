@@ -1,12 +1,20 @@
 # Sidebar navigation
 
 - label: 'Introduction'
-  link: '/'
-- label: 'Reference'
-  link: '/reference'
-- label: Example
   items:
-    - label: 'Lesson 1'
-      link: '/example/l1'
-    - label: 'Lesson 2'
-      link: '/example/l2'
+    - label: 'Welcome'
+      link: '/intro/welcome'
+- label: Examples
+  items:
+    - label: 'Example 1'
+      link: '/examples/ex1'
+    - label: 'Example 2'
+      link: '/examples/ex2'
+    - label: 'Example 3'
+      link: '/examples/ex3'
+    - label: 'Example 4'
+      link: '/examples/ex4'
+- label: 'Reference'
+  items:
+    - label: 'Keypoints'
+      link: '/reference/keypoints'
