@@ -6,14 +6,30 @@
       link: '/intro/welcome'
 - label: Examples
   items:
-    - label: 'Example 1'
-      link: '/examples/ex1'
-    - label: 'Example 2'
-      link: '/examples/ex2'
-    - label: 'Example 3'
-      link: '/examples/ex3'
-    - label: 'Example 4'
-      link: '/examples/ex4'
+    - label: 'Basics'
+    items:
+      - label: 'The video interface'
+        link: '/examples/interface'
+      - label: 'From nothing to something'
+        link: '/examples/blank'
+      - label: 'Change forms of objects'
+        link: '/examples/objectforms'
+      - label: 'Attach it to my body'
+        link: '/examples/attach'
+    - label: 'Dynamic objects'
+    items:
+      - label: 'Bubbles'
+      link: '/examples/bubbles'
+      - label: 'Rain'
+      link: '/examples/rain'
+    - label: 'Random stuff'
+    items:
+      - label: 'Random stuff 1'
+        link: '/examples/random1'
+      - label: 'Rain'
+        link: '/examples/ex4'
+      - label: 'Example 7'
+        link: '/examples/ex4'
 - label: 'Reference'
   items:
     - label: 'Keypoints'
