@@ -7,7 +7,7 @@
 - label: Examples
   items:
     - label: 'Basics'
-    items:
+      items:
       - label: 'The video interface'
         link: '/examples/interface'
       - label: 'From nothing to something'
@@ -17,13 +17,13 @@
       - label: 'Using comments to communicate'
         link: '/examples/reflectivecomments'
     - label: 'Dynamic objects'
-    items:
+      items:
       - label: 'Bubbles'
-      link: '/examples/bubbles'
+        link: '/examples/bubbles'
       - label: 'Rain'
-      link: '/examples/rain'
+        link: '/examples/rain'
     - label: 'Random stuff'
-    items:
+      items:
       - label: 'Random stuff 1'
         link: '/examples/random1'
       - label: 'Rain'
