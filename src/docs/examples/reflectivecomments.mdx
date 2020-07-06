@@ -1,0 +1,32 @@
+---
+title: Reflective comments
+---
+
+
+## Code Example
+
+```js
+(pose) => [
+// Name: Viva! Effect.
+// What: Make the word "Viva!" appear on the dancer's hands when they are over her head.
+// Why: I like the power/vitality that I feel when the dancer pushes her arms up!
+// How (choices): I wanted the word to follow whichever hand is higher, and I didn't
+// want it to appear unless her arms are goign really high.
+// Not when she puts her wrist to her forehead.
+    {
+        what: "text",
+        where: {
+            x: pose.rightWrist.x,
+            y: min(pose.rightWrist.y, pose.leftWrist.y)
+        },
+        when: (pose.leftWrist.y < pose.nose.y - 20 |
+                pose.rightWrist.y < pose.nose.y - 20) ,
+        how: {
+            str: 'Viva!', // str means string - a term for text
+            textSize: 64,
+        }
+    }
+];
+
+
+```
