@@ -4,32 +4,28 @@
   items:
     - label: 'Welcome'
       link: '/intro/welcome'
-- label: Examples
+- label: Basics
   items:
-    - label: 'Basics'
-      items:
-      - label: 'The video interface'
-        link: '/examples/interface'
-      - label: 'From nothing to something'
-        link: '/examples/blank'
-      - label: 'Attach it to my body'
-        link: '/examples/attach'
-      - label: 'Using comments to communicate'
-        link: '/examples/reflectivecomments'
-    - label: 'Dynamic objects'
-      items:
-      - label: 'Bubbles'
-        link: '/examples/bubbles'
-      - label: 'Rain'
-        link: '/examples/rain'
-    - label: 'Random stuff'
-      items:
-      - label: 'Random stuff 1'
-        link: '/examples/random1'
-      - label: 'Rain'
-        link: '/examples/ex4'
-      - label: 'Example 7'
-        link: '/examples/ex4'
+    - label: 'The video interface'
+      link: '/examples/interface'
+    - label: 'From nothing to something'
+      link: '/examples/blank'
+    - label: 'Attach it to my body'
+      link: '/examples/attach'
+    - label: 'Absolute regions'
+      link: '/examples/absoluteregions'
+    - label: 'Using comments to communicate'
+      link: '/examples/reflectivecomments'
+- label: 'Dynamic objects'
+  items:
+    - label: 'Bubbles'
+      link: '/examples/bubbles'
+    - label: 'Movers'
+      link: '/examples/movers'
+- label: 'Random stuff'
+  items:
+    - label: 'Random stuff 1'
+      link: '/examples/random1'
 - label: 'Reference'
   items:
     - label: 'Keypoints'

@@ -16,7 +16,7 @@ title: Reflective comments
     {
         what: "text",
         where: {
-            x: pose.rightWrist.x,
+            x: (pose.rightWrist.x + pose.leftWrist.x)/2,
             y: min(pose.rightWrist.y, pose.leftWrist.y)
         },
         when: (pose.leftWrist.y < pose.nose.y - 20 |

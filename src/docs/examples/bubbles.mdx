@@ -1,0 +1,32 @@
+---
+title: Bubbles
+---
+
+
+## Code Example
+
+```js
+() => [{
+        what: 'circle',
+        where: {
+            start: {
+                x: pose.nose.x,
+                y: pose.nose.y,
+                velocityX: random(-2, 2),
+                velocityY: random(-2, 2)
+            },
+            accelerationX: 0,
+            accelerationY: 0
+        },
+        how: {
+            fill: [{frame: 0, value: color(255, 255, 255, 0)},
+                   {frame: 65, value: color(255, 255, 255, 255)}],
+            d: [{frame: 0, value: 0}, {frame: 50, value: 30},
+                {frame: 60, value: 30}, {frame: 65, value: 0}]
+        }
+    }
+    ];
+
+//
+
+```

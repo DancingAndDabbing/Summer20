@@ -1,0 +1,43 @@
+---
+title: Absolute regions
+---
+
+How tall are you? Can you kick your leg over your head? I can’t. But I can (almost) touch my toes! :)
+
+What are similarities and differences between saying “stay 6 feet apart” and saying “stand with your feet shoulder-length apart?”
+
+Notice that when we talk about how tall you are or what is a safe distance for infectious disease, we refer to some standard “absolute” measure like “a foot” or “10 feet” but other times we can talk about relative positions like “leg over my head” or “she’s shorter than me.” When we program the computer in danceON, we can also use both of these kinds of spatial relationships. However absolute positions are defined in pixels, not feet or inches.
+
+## Discovery Activity
+
+What does this example do? Try using this same code with your webcam. What would we need to do to make this example for a box in the upper right corner  instead of upper left?
+
+```js
+(pose) => [
+{
+        what: 'rect',
+        when: true,
+        where: {
+            x: 0,
+            y: 0
+        },
+        how: {
+            h: height/3,
+            w: width/3,
+            fill: 'rgba(255, 0, 255, 0.2)',
+        }
+    },
+    {
+        what: "text",
+        when: pose.rightWrist.y < height/3 & pose.rightWrist.x < width/3,
+        how: {str:'upper left box!'}
+    }
+];
+
+
+```
+
+## Challenges
+- Make a circle whose diameter (“how”, d) is the same as the x-distance between the dancer’s wrists.
+  - Make it so that the circle only appears IF the distance is greater than some fixed amount/threshold. What threshold value is “good”? (What makes it good? Can you find a threshold value that doesn’t work well?)
+  - Make it so that the circle only appears IF the wrists are more than shoulder width apart.
